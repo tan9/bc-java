@@ -63,6 +63,8 @@ public class DRBG
             // Android.
             {"com.android.org.conscrypt.OpenSSLProvider", "com.android.org.conscrypt.OpenSSLRandom"},
             {"org.conscrypt.OpenSSLProvider", "org.conscrypt.OpenSSLRandom"},
+            // IBM J9
+            {"com.ibm.crypto.provider.IBMJCE", "com.ibm.crypto.provider.SecureRandom"},
         };
 
     // Cascade through providers looking for match.
